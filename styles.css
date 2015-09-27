@@ -1,0 +1,372 @@
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: dosis;
+    src: url(Dosis-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: dosis;
+    src: url(Dosis-Medium.ttf);
+}
+
+@font-face {
+    font-family: slabo;
+    src: url(Slabo27px-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(OpenSans-Regular.ttf);
+    font-weight: bold;
+}
+
+#content
+{
+	margin: auto;
+}
+
+#page
+{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 1px 1px #ddd;
+    text-align: center;
+    font-family: "Opensans";
+    position: relative;
+}
+
+#page h1, #page h2, #page h3
+{
+    font-family: "Opensans";
+}
+
+html, body {
+	height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+html, body, td, select, option, input {
+	font-family: "Opensans", Helvetica,Arial;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+textarea {
+	font-family:Arial;
+}
+
+input, option, select {
+    line-height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+select
+{
+    width: 200px;
+}
+
+h1, h2, h3
+{
+	font-family:"Dosis","Trebuchet MS",Helvetica,Arial;
+}
+
+h2, h3
+{
+	margin-bottom: 20px;
+}
+
+hr
+{
+	border: 0;
+	border-bottom: 1px solid;
+    border-color: #ddd;
+    margin: 0;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+    border-collapse: collapse;
+	margin-bottom: 5px;
+}
+
+#header #menu
+{
+	float: right;
+}
+
+#header
+{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+#header, #header-home
+{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#header, #header-home li {
+	font-family: "Slabo","Trebuchet MS",Helvetica,Arial;
+	float: left;
+	list-style: none;
+	display: block;
+	font-size: 12pt;
+	line-height: 14px;
+	text-decoration: none;
+	padding: 0 5px 3px 5px;
+	margin: 0 0 0 40px;
+}
+
+#header, #header-home .active{
+	font-weight: bold;
+}
+
+#header, #header-home li a, table a {
+	color: #000;
+	text-decoration: none;
+}
+
+#header, #header-home li a:hover, table a:hover {
+	text-decoration: underline;
+    border: none;
+}
+
+#header #title
+{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+#header-home #title
+{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+#header #title a
+{
+    font-size: 40pt;
+    color: #52ac9c;
+    text-decoration: none;
+}
+
+#header-home #title a
+{
+    font-size: 50pt;
+    color: #52ac9c;
+    text-decoration: none;
+}
+
+#header, #header-home h2
+{
+    color: #e5ffff;
+    font-family: "opensans","Trebuchet MS",Helvetica,Arial;
+    font-weight: normal;
+}
+
+#comment {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#comment span {
+	font-weight: bold;
+}
+
+#footer
+{
+    font-family: "opensans";
+    background-color: #fff;
+    margin: 0;
+}
+
+#footer #container
+{
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.half
+{
+    width: 46%;
+    text-align: center;
+    padding: 0 10px;
+    color: #696969;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.half p
+{
+    font-size: 16pt;
+    line-height: 40px;
+}
+
+.bubble
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    background-color: #adf;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bubble h2
+{
+    vertical-align: middle;
+    line-height: 180px;
+    margin: 0;
+    color: #000;
+}
+
+.bubble .num
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    background-color: #def;
+    left: 75%;
+    top: 5%;
+    color: #000;
+}
+
+.post
+{
+    width: 100%;
+    text-align: left;
+    margin: 15px 20px;
+}
+
+.post p
+{
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.post .button
+{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 1px 1px #ddd;
+    float: right;
+    margin-right: 40px;
+    padding: 0 5px;
+    color: #000;
+}
+
+.post .finish
+{
+    background-color: #fcc;
+}
+
+.post .attend
+{
+    background-color: #cfc;
+}
+
+.post .attendees
+{
+    text-align: right;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.post .attendees .userpic
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #adf;
+    display: inline-block;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px;
+    line-height: 20px;
+    position: relative;
+}
+
+.post .attendees .userpic div
+{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    color: #fff;
+    padding: 5px;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    font-family: "Opensans", Helvetica,Arial;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+
+.post .attendees .userpic:hover div
+{
+    display: inline-block;
+    position: absolute;
+}
+
+.userpic
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #adf;
+    display: inline-block;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.divider {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    bottom: 10%;
+    border-left: 1px solid #ddd;
+}
